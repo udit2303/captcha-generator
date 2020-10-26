@@ -35,7 +35,7 @@ let captcha = new Captcha();
 ### Save to file example:
 
 ```js
-const Captcha = require("@haileybot/captcha-generator"),
+const Captcha = require("@udit2303/captcha-generator"),
   fs = require("fs"),
   path = require("path");
 
@@ -48,7 +48,7 @@ captcha.PNGStream.pipe(fs.createWriteStream(path.join(__dirname, `${captcha.valu
 This example assumes you already have the core framework of a Discord Bot set up
 
 ```js
-const Captcha = require("@haileybot/captcha-generator");
+const Captcha = require("@udit2303/captcha-generator");
 
 // Use this function for blocking certain commands or features from automated self-bots
 function verifyHuman(msg) {
