@@ -133,7 +133,6 @@ class Captcha {
 
 		// Set text value and print it to canvas
 		ctx.beginPath();
-		ctx.fillText("http://c456.xyz/captcha-generator", 0, 0);
 
 		// Set style for text
 		ctx.font = "bold 90px swift";
