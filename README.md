@@ -15,7 +15,7 @@ Captcha Generator is a Node library for quickly and easily generating captcha im
 Use the package manager [npm](https://www.npmjs.com/) to install Captcha Generator
 
 ```bash
-npm i @haileybot/captcha-generator
+npm i @udit2303/captcha-generator
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ npm i @haileybot/captcha-generator
 
 ```js
 // Import the module
-const Captcha = require("@haileybot/captcha-generator");
+const Captcha = require("@udit2303/captcha-generator");
 
 // Create a new Captcha object - this will contain "PNGStream" and "value"
 //   - "PNGStream" is a stream of the image in PNG format
@@ -72,3 +72,8 @@ This project is licensed under [AGPL-3.0](https://github.com/HaileyBot/captcha-g
 
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FHaileyBot%2Fcaptcha-generator.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FHaileyBot%2Fcaptcha-generator?ref=badge_large)
+
+
+
+
+None of this is my work, If you want to check the original work, Check out [here](https://github.com/HaileyBot/captcha-generator)
